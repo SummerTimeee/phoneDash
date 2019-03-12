@@ -19,8 +19,9 @@ h1 {
     position: absolute;
     top: 0;
     left: 0%;
-    max-height: 280px;
+    max-height: 300px;
     width: auto;
+    
 }
 
 a {
