@@ -1,38 +1,39 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
-h1 {
-    color: #d48814;
-    text-align: right;
-    font-size: 2.3em;
-    background-color: black;
-    font-family: 'Merriweather', serif;
-}
+h1 {}
 
 .img1 {
     height: auto;
     display: block;
     text-align: top;
-    margin-top: 0px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 0;
-    left: 0%;
-    max-height: 300px;
-    width: auto;
-    
 }
-
+.img2{
+    height: 356px;
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative;
+}
 a {
     display: block;
     position: absolute;
     float: left;
     font-family: 'Merriweather', serif;
-    color: #fff;
+    color: black;
     text-decoration: none;
     width: 100%;
     height: 70px;
+    text-align: center;
+}
+
+h3 {
+    background-color: black;
+    font-size: 1.5em;
+    color: #3d8410;
     text-align: center;
 }
 
@@ -44,154 +45,91 @@ p {
     line-height: 1.5em;
 }
 
-h3 {
+h2 {
+    border: #d48814;
     font-size: 1.5em;
-    color: #3d8410;
-    width: 300px;
-  height: 50px;
-    -webkit-animation-name: patients;
-    -webkit-animation-duration: 2s;
-    animation: pulse 5s infinite;
-    animation-iteration-count: infinite;
-    animation-name: patients;
-    animation-duration: 4s infinite;
+    color: black;
+    background-color: #d48814;
+    border-style: double;
+    border-radius: 0em;
+    border-width: 15px 15px;
+    text-align: center;
+    letter-spacing: 0.5em;
 }
-@-webkit-keyframes patients {
-    from {
-        background-color: yellow;
-    }
-    to {
-        background-color: #d48814;
-    }
+
+#pair {
+    line-height: 0.5em;
+    color: black;
+    font-size: 1em;
+    text-align: center;
 }
-@keyframes patients {
-    from {
-        background-color: yellow;
-    }
-    to {
-        background-color: #d48814;
-    }
+
+@media (max-width: 600px) {
+    h1 {}
+}
+
+.img1 {
+    height: auto;
+    display: block;
+    text-align: top;
+    margin-top: 0px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    max-height: 100px;
+    width: auto;
+}
+.img2{
+    height: 356px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+a {
+    display: block;
+    position: absolute;
+    float: left;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+p {
+    color: #d48814;
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+    padding-top: 35px;
+    line-height: 1.8em;
 }
 
 h2 {
-    border: white;
-    font-size: 2em;
-    color: #d48814;
-    border: white;
-    border-style: groove;
-    border-radius: 5em;
+    border: #d48814;
+    font-size: 1.5em;
+    color: black;
+    background-color: #d48814;
+    border-style: double;
+    border-radius: 0em;
+    border-width: 15px 15px;
     text-align: center;
     letter-spacing: 0.5em;
-    
 }
-#pair{
+
+#pair {
     line-height: 0.5em;
-    color: white;
-    font-size: 3.5em;
-    text-align: center;
-}
-h5{
-    border: white;
-    background-color: white;
-    font-size: 3em;
-    color: #3d8410;
-    border-style: dashed;
-    border-radius: 1.5em;
-    text-align: center;
-}
-
-
-
-
-@media (max-width: 600px) {
-    h1 {
-        color: #d48814;
-        text-align: right;
-        font-size: 0.8em;
-        background-color: black;
-        font-family: 'Merriweather', serif;
-    }
-    .img1 {
-        height: auto;
-        display: block;
-        text-align: top;
-        margin-top: 0px;
-        background-color: black;
-        position: absolute;
-        top: 0;
-        left: 0%;
-        max-height: 100px;
-        width: auto;
-    }
-    a {
-        display: block;
-        position: absolute;
-        float: left;
-        font-family: 'Merriweather', serif;
-        color: #fff;
-        text-decoration: none;
-        width: 100%;
-        height: 70px;
-        text-align: center;
-    }
-    p {
-        color: #d48814;
-        font-size: 1.5em;
-        font-family: 'Merriweather', serif;
-        padding-top: 35px;
-        line-height: 1.8em;
-    }
-    h3 {
-        color: #3d8410;
-        font-size: 1em;
-        width: 200px;
-        height: 40px;
-        -webkit-animation-name: patients;
-        -webkit-animation-duration: 2s;
-        animation: pulse 5s infinite;
-        animation-iteration-count: infinite;
-        animation-name: patients;
-        animation-duration: 3s infinite;
-    }
-    @-webkit-keyframes patients {
-        from {
-            background-color: yellow;
-        }
-        to {
-            background-color:#d48814;
-        }
-    }
-    @keyframes patients {
-        from {
-            background-color: yellow;
-        }
-        to {
-            background-color: #d48814;
-        }
-    }
-    h2 {
-        border: white;
-        font-size: 1.5em;
-        color: #d48814;
-        border: white;
-        border-style: groove;
-        border-radius: 5em;
-        text-align: center;
-        letter-spacing: 0.5em;
-}
-#pair{
-    line-height: 0.5em;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-}
-h5{
-    border: white;
-    background-color: white;
+    color: black;
     font-size: 1em;
+    text-align: center;
+}
+
+h3 {
+    background-color: black;
+    font-size: 1.5em;
     color: #3d8410;
-    border-style: dashed;
-    border-radius: 2em;
+    text-align: center;
 }
 
 /*# sourceMappingURL=/home.871e090d.css.map */

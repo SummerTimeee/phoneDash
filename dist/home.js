@@ -388,4 +388,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../.npm/_npx/20421/lib/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/appointment.e9f0d5ab.js.map
+//# sourceMappingURL=/home.js.map
