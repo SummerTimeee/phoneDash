@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    position: relative;
 }
 
 h1 {}
@@ -17,12 +18,13 @@ h1 {}
     width: 100%;
     padding-bottom: 20px;
     position: relative;
+    margin: 0 auto;
 }
 a {
     display: block;
     position: absolute;
     float: left;
-    font-family: 'Merriweather', serif;
+    font-family: sans-serif;
     color: black;
     text-decoration: none;
     width: 100%;
@@ -31,10 +33,14 @@ a {
 }
 
 h3 {
-    background-color: black;
+    background-color: #f3f3f3;
     font-size: 1.5em;
     color: #3d8410;
     text-align: center;
+    margin: -23px auto; 
+    margin-top: -50px;
+    font-family: sans-serif;
+    line-height: 1.5;
 }
 
 p {
@@ -48,7 +54,7 @@ p {
 h2 {
     border: #d48814;
     font-size: 1.5em;
-    color: black;
+    color: #333;
     background-color: #d48814;
     border-style: double;
     border-radius: 0em;
@@ -59,7 +65,7 @@ h2 {
 
 #pair {
     line-height: 0.5em;
-    color: black;
+    color: #333;
     font-size: 1em;
     text-align: center;
 }
@@ -91,7 +97,7 @@ a {
     position: absolute;
     float: left;
     font-family: 'Merriweather', serif;
-    color: black;
+    color: #333;
     text-decoration: none;
     width: 100%;
     height: 70px;
@@ -120,13 +126,13 @@ h2 {
 
 #pair {
     line-height: 0.5em;
-    color: black;
+    color: #333;
     font-size: 1em;
     text-align: center;
 }
 
 h3 {
-    background-color: black;
+    background-color: #f3f3f3;
     font-size: 1.5em;
     color: #3d8410;
     text-align: center;
