@@ -6,12 +6,11 @@ body {
 h1 {}
 
 .img1 {
-    height: auto;
-    display: block;
-    text-align: top;
-    background-color: white;
-    position: absolute;
-    top: 0;
+    background-image: url("/phonedash.9d14f116.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img2{
     height: 356px;
@@ -75,14 +74,11 @@ h2 {
 }
 
 .img1 {
-    height: auto;
-    display: block;
-    text-align: top;
-    margin-top: 0px;
-    background-color: black;
-    position: absolute;
-    max-height: 100px;
-    width: auto;
+    background-image: url("/phonedash.9d14f116.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img2{
     height: 356px;
