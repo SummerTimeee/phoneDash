@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
@@ -25,7 +25,7 @@ a {
     position: absolute;
     float: left;
     font-family: sans-serif;
-    color: black;
+    color: white;
     text-decoration: none;
     width: 100%;
     height: 70px;
@@ -65,7 +65,7 @@ h2 {
 
 #pair {
     line-height: 0.5em;
-    color: #333;
+    color: white;
     font-size: 1em;
     text-align: center;
 }
@@ -79,10 +79,8 @@ h2 {
     display: block;
     text-align: top;
     margin-top: 0px;
-    background-color: white;
+    background-color: black;
     position: absolute;
-    top: 0;
-    left: 0%;
     max-height: 100px;
     width: auto;
 }
@@ -97,7 +95,7 @@ a {
     position: absolute;
     float: left;
     font-family: 'Merriweather', serif;
-    color: #333;
+    color: white;
     text-decoration: none;
     width: 100%;
     height: 70px;
@@ -126,7 +124,7 @@ h2 {
 
 #pair {
     line-height: 0.5em;
-    color: #333;
+    color: white;
     font-size: 1em;
     text-align: center;
 }
