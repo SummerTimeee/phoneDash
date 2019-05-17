@@ -90,6 +90,13 @@
 
 
 h1 {
-    font-family: 'Merienda', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 35px;
+    color: #333333;
+
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    color: red;
 }
