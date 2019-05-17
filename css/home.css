@@ -1,133 +1,96 @@
-body {
+.side-bar {
+    background-color: #3d8410;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /*remove margin top*/
+    left: 0;
+    /*remove margin left*/
+    overflow: hidden;
+    /* hide over flow of children*/
+    transition: 0.5s;
+}
+
+.side-bar a {
+    display: block;
     background-color: black;
-    position: relative;
-}
-
-h1 {}
-
-.img1 {
-    background-image: url("/images/phonedash.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img2{
-    height: 356px;
-    width: 100%;
-    padding-bottom: 20px;
-    position: relative;
-    margin: 0 auto;
-}
-a {
-    display: block;
-    position: absolute;
-    float: left;
-    font-family: sans-serif;
-    color: white;
+    padding: 12px 16px;
     text-decoration: none;
-    width: 100%;
-    height: 70px;
-    text-align: center;
-}
-
-h3 {
-    background-color: #f3f3f3;
-    font-size: 1.5em;
-    color: #3d8410;
-    text-align: center;
-    margin: -23px auto; 
-    margin-top: -50px;
-    font-family: sans-serif;
-    line-height: 1.5;
-}
-
-p {
-    color: #d48814;
-    font-size: 3.5em;
-    font-family: 'Merriweather', serif;
-    padding-top: 35px;
-    line-height: 1.5em;
-}
-
-h2 {
-    border: #d48814;
-    font-size: 1.5em;
-    color: #333;
-    background-color: #d48814;
-    border-style: double;
-    border-radius: 0em;
-    border-width: 15px 15px;
-    text-align: center;
-    letter-spacing: 0.5em;
-}
-
-#pair {
-    line-height: 0.5em;
     color: white;
-    font-size: 1em;
-    text-align: center;
+    font-family: 'Merienda', cursive;
 }
 
-@media (max-width: 600px) {
-    h1 {}
+.side-bar .close-btn {
+    text-align: right;
 }
 
-.img1 {
-    background-image: url("/images/phonedash.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img2{
-    height: 356px;
-    width: 100%;
-    padding-bottom: 20px;
+h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
 }
 
-a {
-    display: block;
-    position: absolute;
-    float: left;
-    font-family: 'Merriweather', serif;
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    height: 70px;
-    text-align: center;
+body {
+    padding: 22px 24px 23px 168px;
 }
 
-p {
-    color: #d48814;
-    font-size: 1.5em;
-    font-family: 'Merriweather', serif;
-    padding-top: 35px;
-    line-height: 1.8em;
-}
-
-h2 {
-    border: #d48814;
-    font-size: 1.5em;
-    color: black;
-    background-color: #d48814;
-    border-style: double;
-    border-radius: 0em;
-    border-width: 15px 15px;
-    text-align: center;
-    letter-spacing: 0.5em;
-}
-
-#pair {
-    line-height: 0.5em;
-    color: white;
-    font-size: 1em;
-    text-align: center;
-}
-
-h3 {
-    background-color: #f3f3f3;
-    font-size: 1.5em;
-    color: #3d8410;
-    text-align: center;
+@media only screen and (max-width: 600px) {
+    .side-bar {
+        background-color: #3d8410;
+        width: 150px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        /*remove margin top*/
+        left: 0;
+        /*remove margin left*/
+        overflow: hidden;
+        /* hide over flow of children*/
+        transition: 0.5s;
+    }
+    .side-bar a {
+        display: block;
+        background-color: rgb(32, 31, 31);
+        padding: 25px 27px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Merienda', cursive;
+        font-size: 15px;
+    }
+    .side-bar .close-btn {
+        text-align: right;
+    }
+    body {
+        padding: 19px 0px 24px 143px;
+    }
+    h1 {
+        font-family: 'Merienda', cursive;
+        font-size: 35px;
+        width: 100%;
+    }
+    h2 {
+        font-family: 'Merienda', cursive;
+        font-size: 19px;
+    }
+    h3 {
+        font-family: 'Merienda', cursive;
+        font-size: 19px;
+    }
+    h4 {
+        border-style: solid;
+        border-color: #3d8410;
+       background-color: #3d8410;
+        text-align: center;
+        font-size: 26px;
+        color: wheat;
+    }
+    .row {
+        display: flex;
+      }
+      
+      /* Create three equal columns that sits next to each other */
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
 }
