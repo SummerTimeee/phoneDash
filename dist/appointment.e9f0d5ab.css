@@ -1,7 +1,6 @@
 .side-bar {
-    background-color: black;
-    width: 150px;
-    height: 100%;
+    background-color: #3d8410;
+    
     position: fixed;
     top: 0;
     /*remove margin top*/
@@ -10,19 +9,53 @@
     overflow: hidden;
     /* hide over flow of children*/
     transition: 0.5s;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
 }
 
 .side-bar a {
     display: block;
-    background-color: grey;
+    background-color:rgb(32, 31, 31) ;
     padding: 12px 16px;
     text-decoration: none;
     color: white;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
 }
 
 .side-bar .close-btn {
     text-align: right;
 }
 
+@media only screen and (max-width: 600px) {
+    .side-bar {
+        background-color: #3d8410;
+        width: 150px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        /*remove margin top*/
+        left: 0;
+        /*remove margin left*/
+        overflow: hidden;
+        /* hide over flow of children*/
+        transition: 0.5s;
+    }
+    .side-bar a {
+        display: block;
+        background-color: rgb(32, 31, 31);
+        padding: 25px 27px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Merienda', cursive;
+        font-size: 18px;
+    }
+    .side-bar .close-btn {
+        text-align: right;
+    }
+    body {
+        padding: 19px 0px 24px 143px;
+}
+}
 
 /*# sourceMappingURL=/appointment.e9f0d5ab.css.map */
