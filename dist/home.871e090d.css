@@ -79,20 +79,19 @@ body {
     h4 {
         border-style: solid;
         border-color: #3d8410;
-       background-color: #3d8410;
+        background-color: #3d8410;
         text-align: center;
         font-size: 26px;
         color: wheat;
     }
     .row {
         display: flex;
-      }
-      
-      /* Create three equal columns that sits next to each other */
-      .column {
+    }
+    /* Create three equal columns that sits next to each other */
+    .column {
         flex: 33.33%;
         padding: 5px;
-      }
+    }
 }
 
 /*# sourceMappingURL=/home.871e090d.css.map */
