@@ -5,17 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link rel="stylesheet" href="css\appointment.css">
     <title>Appointment Page</title>
 </head>
 
 <body>
-        <div class="side-bar">
-
-                <a href="home.html"><span>Home</span></a>
-                <a href="blog.html"><span>Blog</span></a>
-                <a href="appointment.html"><span>Appointment</span></a>
-            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+        <script>
+          $(document).ready(function(){  
+          $('.navigation').hide();  
+          $('.box').click(function(){  
+            $('.navigation').toggle();  
+          });  
+          });
+        </script>
+        <div class="mobilenav"> <span>
+          <div class="box">
+            <div class="lines"></div>
+          </div>
+          </span>
+          <ul class="navigation">
+            <li class="home current  first "> <a href="home.html" > <span>Home</span> </a> </li>
+            <li class="appointment"> <a href="appointment.html" > <span>Appointment</span> </a> </li>
+            <li class="blog"> <a href="blog.html" > <span>Blog</span> </a> </li>
+          </ul>
+        </div>
             <script type="text/javascript" src="https://form.jotform.com/jsform/91358577925169"></script>
 </body>
 
